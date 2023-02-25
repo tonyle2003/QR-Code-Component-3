@@ -1,0 +1,68 @@
+/* resest css */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* font-size: 100%; */
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+p {
+
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-contain {
+
+    /* position: relative;
+    top: 125px; */
+    border-radius: 5%;
+    /* padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px; */
+    padding: 1rem 1rem 2rem;
+    /* width: fit-content; */
+    text-align: center;
+    /* NOTE: This is unnecessary, it won't work because the element doesn't have a display of flexbox.*/
+    /* align-items: center;
+    flex-direction: column; */
+    background-color: hsl(0, 0%, 100%);
+    max-width: 21.4rem;
+}
+
+#box-contain .qr-code {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.descript1 {
+    font-size: 1.5rem;
+    padding-top: 0.8rem;
+    margin: 0.3rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    letter-spacing: 0.05rem;
+}
+
+.descript2 {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    margin: 0.8rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    letter-spacing: 0.02rem;
+}
